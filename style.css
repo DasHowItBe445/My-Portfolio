@@ -1,0 +1,99 @@
+*{
+    font-family: Verdana, Garamond, Tahoma, sans-serif;
+}
+/* }
+body{
+    background-color: #EFD9CE44; 
+} */
+/* body{
+    background-color: #CEA2AC44; 
+  font-family: Verdana, Garamond, Tahoma, sans-serif;
+} */
+header{
+  text-align: center;
+  padding-top: 50px;  
+  border : 5px;
+  border-style: solid;
+  border-color: #25283D;
+  background-color: #FFFFFFFF;
+}
+header h1{
+  font-size: 40px;
+}
+.purple{
+  color: #8F3985;
+}
+nav{
+/*     display: inline-block; */
+/*     position: sticky; */
+    color: #FFFFFFDD;
+    background-color:#25283DEE;
+    padding: 1rem 0;
+    height: 30px;
+/*     padding: 10px; */
+    border-radius: 10px;
+/*     margin-left: 10px; */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+/* For navigation links */
+nav a:hover {
+    background-color: #A675A1; /* Change background */
+    color: white; /* Change text color */
+/*     text-decoration: underline; /* Add underline */ 
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* nav a{
+  display: inline-block;
+    color: #FFFFFFDD;
+    border: 2px solid #25283D;
+    background-color: #A675A1FF;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+} */
+#Main_Info{
+/*   display: inline-block; */
+  color: #25283D;
+  border: 2px solid #25283D;
+  background-color: #A675A155;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+.check_span{
+  color: #8F3985
+}
+.Heading{
+  color: #25283D;
+  border-bottom: 3.5px solid #8F3985AA;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.Sections{
+/*    background-color: #EFD9CEFF; */
+  background-color: #FFFFFFFF;
+  padding: 20px;
+  border : 3px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  /*Red-Green-Blue-alpha(opacity)*/
+  border-radius: 7px;
+  border-color: #25283D33;
+/*   margin: 2rem 1rem 2rem 1rem; */
+  margin: 10px;
+   border-style: solid;
+/*   border : 2px; */
+}
+body{
+    background-color: #A675A1FF; 
+  font-family: Verdana, Garamond, Tahoma, sans-serif;
+}
+#Main_Info h2{
+  color: #25283D;
+}
