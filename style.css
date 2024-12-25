@@ -9,6 +9,10 @@ body{
     background-color: #CEA2AC44; 
   font-family: Verdana, Garamond, Tahoma, sans-serif;
 } */
+body{
+  background-color: #A675A1FF; 
+font-family: Verdana, Garamond, Tahoma, sans-serif;
+}
 header{
   text-align: center;
   padding-top: 50px;  
@@ -16,7 +20,19 @@ header{
   border-style: solid;
   border-color: #25283D;
   background-color: #FFFFFFFF;
+  border-radius: 4px;
 }
+#Main_Info{
+  /*   display: inline-block; */
+    color: #25283D;
+    border: 2px solid #25283D;
+    background-color: #A675A155;
+    padding: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: left;
+  }
 header h1{
   font-size: 40px;
 }
@@ -24,18 +40,24 @@ header h1{
   color: #8F3985;
 }
 nav{
-/*     display: inline-block; */
-/*     position: sticky; */
+    display: flex;
+    /* position: fixed; */
     color: #FFFFFFDD;
-    background-color:#25283DEE;
+    margin: 5px;
+    background-color:#25283DFF;
     padding: 1rem 0;
     height: 30px;
 /*     padding: 10px; */
-    border-radius: 10px;
+    border-radius: 4px;
 /*     margin-left: 10px; */
-  list-style-type: none;
-  display: flex;
   justify-content: space-around;
+}
+nav a{
+  display: flex;
+}
+.navbar{
+  position:sticky;
+  top: 0px;
 }
 /* For navigation links */
 nav a:hover {
@@ -56,17 +78,6 @@ nav a:hover {
     padding: 5px 5px 5px 5px;
     border-radius: 5px;
 } */
-#Main_Info{
-/*   display: inline-block; */
-  color: #25283D;
-  border: 2px solid #25283D;
-  background-color: #A675A155;
-  padding: 7px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 10px;
-  text-align: left;
-}
 .check_span{
   color: #8F3985
 }
@@ -79,21 +90,32 @@ nav a:hover {
 .Sections{
 /*    background-color: #EFD9CEFF; */
   background-color: #FFFFFFFF;
-  padding: 20px;
+  padding: 15px;
   border : 3px;
   box-shadow: 0 0 30px rgba(0,0,0,0.1);
   /*Red-Green-Blue-alpha(opacity)*/
   border-radius: 7px;
   border-color: #25283D33;
 /*   margin: 2rem 1rem 2rem 1rem; */
-  margin: 10px;
+  margin: 5px;
    border-style: solid;
 /*   border : 2px; */
 }
-body{
+/* body{
     background-color: #A675A1FF; 
   font-family: Verdana, Garamond, Tahoma, sans-serif;
-}
+} */
 #Main_Info h2{
   color: #25283D;
+}
+@media (max-width: 600px){
+  *{
+    font-size: 6px;
+  }
+  header{
+    padding-top: 25px; 
+  }
+  header h1{
+    font-size: 10px;
+  }
 }
